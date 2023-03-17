@@ -5,7 +5,7 @@
  *main - Entry point
  *Description: 'Checking if a number is positive, negative, or null'
  *Return: always 0
-*/
+ */
 int main(void)
 {
 	int n;
@@ -24,4 +24,3 @@ int main(void)
 	{
 		printf("%d is negative\n", n);
 	}
-}

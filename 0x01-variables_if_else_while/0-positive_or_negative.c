@@ -2,9 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *main - Entry point
- *Description: 'Checking if a number is positive, negative, or null'
- *Return: always 0
+ *main - Checking if a number is positive, negative, or null
+ *Return: always 0 (success)
  */
 int main(void)
 {
@@ -24,4 +23,5 @@ int main(void)
 	{
 		printf("%d is negative\n", n);
 	}
+	return(0);
 }
